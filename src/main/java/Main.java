@@ -9,7 +9,7 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String file_name = "GettysburgAddress.txt";
+        String file_name = "test_file_1.txt";
         List<Paragraph> paragraphs =
                 readTextFileIntoParagraphs("data/" + file_name);
 
